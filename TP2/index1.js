@@ -6,4 +6,4 @@ var segundoCelular = new celular_1.Celular("Samsung", "S20", "Android", "encendi
 primerCelular.setMarca("Sony");
 primerCelular.encerderApagar();
 console.log(primerCelular.mostrarInfo());
-//console.log(segundoCelular.getMarca());
+console.log(segundoCelular.getMarca());

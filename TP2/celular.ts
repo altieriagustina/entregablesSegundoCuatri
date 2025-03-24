@@ -27,8 +27,6 @@ export class Celular {
 
     }
 
-// NO LOGRO HACER FUNCIONAR EL METODO ENCERDERAPAGAR ***************************************
-
     public encerderApagar(): void {
         if (this.estadoDeEncendido == "apagado") {
             this.estadoDeEncendido = "encendido"

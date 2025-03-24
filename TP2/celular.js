@@ -20,7 +20,6 @@ var Celular = /** @class */ (function () {
         this.almacenamientoInterno = pAlmacenamientoInterno !== null && pAlmacenamientoInterno !== void 0 ? pAlmacenamientoInterno : "64GB";
         this.estadoDeEncendido = pEstadoDeEncendido !== null && pEstadoDeEncendido !== void 0 ? pEstadoDeEncendido : "apagado";
     }
-    // NO LOGRO HACER FUNCIONAR EL METODO ENCERDERAPAGAR ***************************************
     Celular.prototype.encerderApagar = function () {
         if (this.estadoDeEncendido == "apagado") {
             this.estadoDeEncendido = "encendido";
