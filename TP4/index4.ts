@@ -8,7 +8,7 @@ const heladeraSmart = new SmartHeladera("Gafa", "HGF358", false, 5, moduloHelade
 
 // ENCENDER HELADERA
 
-//heladeraSmart.encerderHeladera();
+//heladeraSmart.encenderHeladera();
 //console.log(heladeraSmart);
 
 // CAMBIAR TEMPERATURA

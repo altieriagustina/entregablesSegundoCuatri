@@ -14,7 +14,7 @@ public getMarca(): string {
     return this.marca;
 }
 
-public getMdelo(): string {
+public getModelo(): string {
     return this.modelo;
 }
 

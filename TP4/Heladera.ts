@@ -22,12 +22,12 @@ export class Heladera extends Electrodomestico {
 
     // Metodo
 
-    public encerderHeladera(): void {
-        this.estaEncendido = false ? this.estaEncendido == true : this.estaEncendido == false;
+    public encenderHeladera(): void {
+        this.estaEncendido = false ? this.estaEncendido = true : this.estaEncendido = false;
     }
 
     public apagarHeladera(): void {
-        this.estaEncendido = true ? this.estaEncendido == false : this.estaEncendido == true;
+        this.estaEncendido = true ? this.estaEncendido = false : this.estaEncendido = true;
     }
 
     public cambiarTemperatura(nuevaTemp: number): void {
