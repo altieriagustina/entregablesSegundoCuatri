@@ -45,13 +45,5 @@ public encerder(): void {
 public apagar(): void {
     this.estaEncendido == false;
 }
-
-public mostrarInfo(): string {
-    return `Información del equipo seleccionado:
---> Marca de la heladera: ${this.marca}
---> Modelo de la heladera: ${this.modelo}
---> Estado de Encendido: ${this.estaEncendido}
-`
-}
  
 }

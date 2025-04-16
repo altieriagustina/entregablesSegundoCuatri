@@ -1,13 +1,27 @@
+import { ModuloWifi } from "./ModuloWifi";
+import { SmartHeladera } from "./SmartHeladera";
+
 // Crear una instancia de SmartHeladera
+const moduloHeladera = new ModuloWifi(125, 250);
 
+const heladeraSmart = new SmartHeladera("Gafa", "HGF358", false, 5, moduloHeladera, true)
 
-// Encenderla
+// ENCENDER HELADERA
 
+//heladeraSmart.encerderHeladera();
+//console.log(heladeraSmart);
 
-// Cambiar temperatura 
+// CAMBIAR TEMPERATURA
 
+//heladeraSmart.cambiarTemperatura(10);
+//console.log(heladeraSmart);
 
-// Conectarse a internet
+// CONECTAR A INTERNET
 
+//heladeraSmart.conectarInternet();
+//console.log(heladeraSmart);
 
-// Mostrar info
+// MOSTRAR INFO
+
+//heladeraSmart.mostrarInfo();
+console.log(heladeraSmart.mostrarInfo());

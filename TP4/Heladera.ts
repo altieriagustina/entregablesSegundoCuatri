@@ -1,7 +1,7 @@
 import { Electrodomestico } from "./Electrodomestico"
 
 export class Heladera extends Electrodomestico {
-    private temperatura: number;
+    protected temperatura: number;
     
     public constructor(pMarca: string, pModelo: string, pEstaEncendido: boolean, pTemperatura: number) {
         super(pMarca, pModelo, pEstaEncendido);
@@ -22,8 +22,19 @@ export class Heladera extends Electrodomestico {
 
     // Metodo
 
+    public encerderHeladera(): void {
+        this.estaEncendido = false ? this.estaEncendido == true : this.estaEncendido == false;
+    }
+
+    public apagarHeladera(): void {
+        this.estaEncendido = true ? this.estaEncendido == false : this.estaEncendido == true;
+    }
+
     public cambiarTemperatura(nuevaTemp: number): void {
         this.temperatura = nuevaTemp;
     }
 
+    public mostrarEncendido(): string {
+        return this.estaEncendido == true ? `Heladera encendida` : `Heladera apagada`;
+    }
 }
