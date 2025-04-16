@@ -27,7 +27,7 @@ export class Celular {
 
     }
 
-    public encerderApagar(): void {
+    public encenderApagar(): void {
         if (this.estadoDeEncendido == "apagado") {
             this.estadoDeEncendido = "encendido"
         } else {

@@ -5,7 +5,7 @@ let segundoCelular = new Celular("Samsung", "S20", "Android", "encendido");
 
 primerCelular.setMarca("Sony");
 
-primerCelular.encerderApagar();
+primerCelular.encenderApagar();
 
 console.log(primerCelular.mostrarInfo());
 

@@ -4,6 +4,6 @@ var celular_1 = require("./celular");
 var primerCelular = new celular_1.Celular("Iphone", "16 Pro", "IOS", undefined, undefined, "apagado");
 var segundoCelular = new celular_1.Celular("Samsung", "S20", "Android", "encendido");
 primerCelular.setMarca("Sony");
-primerCelular.encerderApagar();
+primerCelular.encenderApagar();
 console.log(primerCelular.mostrarInfo());
 console.log(segundoCelular.getMarca());
